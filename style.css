@@ -64,3 +64,15 @@ box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
 color: var(--branca);
 outline: none;
 }
+.tecla.focus,
+.tecla:focus {
+outline: none;
+box-shadow: 1px 1px 10px var(--luz);
+}
+
+.tecla.ativa:focus,
+.tecla:active:focus {
+box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px
+var(--luz);
+}
+
